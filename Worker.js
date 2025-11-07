@@ -13,7 +13,7 @@ export default {
 
     // ✅ 判断是否是 OTT Player（根据 UA 关键字匹配）
     // 你可以替换为你的播放器标识，例如 "OTTPlayer", "OTT TV", "OTT Navigator" 等
-    const ottKeywords = ["OTTPlayer", "OTT TV", "OTT Navigator"];
+    const ottKeywords = ["OTT Player", "OTT TV", "OTT Navigator"];
     const isOTT = ottKeywords.some(keyword => ua.includes(keyword));
 
     if (isOTT) {
