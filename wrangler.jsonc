@@ -1,5 +1,5 @@
 {
   "name": "ap",
-  "main": "Workers.js",
+  "main": "Worker.js",
   "compatibility_date": "2025-11-07"
 }
